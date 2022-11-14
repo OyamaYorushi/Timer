@@ -5,6 +5,7 @@ function timer(){
     const buttonRestart = document.querySelector('#restart');
     let timer = document.querySelector('#setTimer')
     let appTimer;
+    let seconds = 0;
     
     function addClass(element){
         element.classList.add('paused')
